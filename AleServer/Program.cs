@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AleServer.src.Test;
+using System;
 
 namespace AleServer
 {
@@ -6,7 +7,7 @@ namespace AleServer
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello World!");
+      var testClass = new TestClass();
     }
   }
 }
